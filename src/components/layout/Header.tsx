@@ -109,15 +109,26 @@ export default function Header() {
           {/* Right Side Buttons */}
           <div className="flex items-center justify-between md:justify-end w-full md:w-auto gap-3 md:gap-4 shrink-0">
             {/* Brochure Link */}
-            <a 
-              href="/static/assets/SCAIPL_Business_Profile.pdf" 
+
+            {/* Brochure Link */}
+<a
+  href="/Pdf/brochure.pdf"
+  download="SCAIPL_Business_Profile.pdf"
+  aria-label="Download Business Profile Brochure"
+  className="hidden sm:flex items-center gap-2 px-3 py-2 md:px-4 md:py-2.5 rounded-lg border-transparent text-slate-600 dark:text-slate-300 hover:border-brand-500 dark:hover:border-brand-500 hover:text-brand-600 dark:hover:text-brand-400 transition-colors text-xs md:text-base font-semibold group glass backdrop-blur-sm"
+>
+  <FileText className="w-4 h-4 md:w-5 md:h-5 text-slate-400 group-hover:text-brand-500 transition-colors" />
+  <span className="whitespace-nowrap">Brochure</span>
+</a>
+            {/* <a 
+              href="/Pdf/brochure.pdf" 
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => {
                 // Trigger download programmatically while the default action opens it in a new tab
                 const link = document.createElement('a');
-                link.href = '/static/assets/SCAIPL_Business_Profile.pdf';
-                link.download = 'SCAIPL_Business_Profile.pdf'; // Forces download
+                link.href = '/Pdf/brochure.pdf';
+                link.download = '/Pdf/brochure.pdf'; // Forces download
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
@@ -127,7 +138,7 @@ export default function Header() {
             >
               <FileText className="w-4 h-4 md:w-5 md:h-5 text-slate-400 group-hover:text-brand-500 transition-colors" />
               <span className="whitespace-nowrap">Brochure</span>
-            </a>
+            </a> */}
 
             {/* SCAIL AI Button */}
             <Link 
