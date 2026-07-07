@@ -92,12 +92,45 @@ export default function Header() {
               transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
               className="flex flex-col justify-center py-1"
             >
-              <h1 className="text-base sm:text-2xl md:text-3xl lg:text-4xl font-black tracking-tight text-slate-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors leading-tight">
+
+
+<h1 className="font-['Noto_Serif'] text-base sm:text-2xl md:text-3xl lg:text-4xl font-medium leading-[1.15] tracking-[-0.02em]">
+
+ <span className="font-semibold text-[#243B82] dark:text-[#D5DDF2]">
+  Superwave 
+</span>{" "}
+
+  <span className="font-semibold text-[#3FA9D6]">
+  Communication
+</span>
+
+ <span className="mx-1 font-semibold text-[#2F7E8A]">
+  &
+</span>
+  <br className="hidden sm:block" />
+
+  {/* InfraSolution - Cyan */}
+ <span className="font-semibold text-[#3FA9D6]">
+  InfraSolution
+</span>{" "}
+  {/* Limited - Navy */}
+  <span className="font-semibold text-[#243B82] dark:text-[#D5DDF2]">
+    Limited
+  </span>
+
+  <span className="inline-flex items-center ml-2 sm:ml-3 rounded-full bg-[#243B82] border border-[#58C6E8]/30 px-3 py-0.5 text-[10px] sm:text-sm font-bold uppercase tracking-[0.2em] text-[#58C6E8] shadow-lg transform -translate-y-1">
+  SCAIL
+</span>
+
+</h1>
+
+
+              {/* <h1 className="text-base sm:text-2xl md:text-3xl lg:text-4xl font-black tracking-tight text-slate-800 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors leading-tight">
                 Superwave Communication <span className="text-brand-600 dark:text-brand-500">&</span><br className="hidden sm:block" /> InfraSolution Limited
                 <span className="inline-block ml-2 sm:ml-3 align-middle bg-brand-100 dark:bg-brand-900/30 text-brand-700 dark:text-brand-400 text-[10px] sm:text-base md:text-base font-bold px-2 py-0.5 rounded tracking-widest border border-brand-200 dark:border-brand-800 shadow-sm group-hover:shadow-md transition-all">
                   SCAIL
                 </span>
-              </h1>
+              </h1> */}
               <div className="flex items-center gap-2 sm:gap-3 mt-1 md:mt-2">
                 <p className="text-[8px] sm:text-[9px] md:text-xs text-slate-500 uppercase tracking-[0.1em] md:tracking-[0.2em] font-semibold hidden sm:block">
                   Engineering Excellence • Digital Transformation

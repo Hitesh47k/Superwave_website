@@ -86,7 +86,7 @@ const PRODUCTS: Product[] = [
     features: ['Up to 250km/h capture', 'Built-in OCR engine', 'Motorized varifocal lens'],
     specs: { resolution: '4MP / 8MP', ipRating: 'IP67', connectivity: 'Gigabit Ethernet' },
     applications: ['Toll Plaza', 'Speed Enforcement', 'Smart City'],
-    image: '../images/team/image_ten.jpeg',
+    image: '../images/team/image_te.jpeg',
     color: 'from-cyan-500 to-blue-600'
   },
   // --- READERS ---
