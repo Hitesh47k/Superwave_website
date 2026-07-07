@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://scail.com/sitemap.xml
